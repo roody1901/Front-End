@@ -40,3 +40,28 @@
     transition: 0.3s ease;
     border-radius: 20em;
 }
+.intro {
+    display: flex;
+    margin: 90px;
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); */
+
+}
+ .profile {
+    flex: 1;
+    border: 2px solid yellow;
+    /* display: flex;
+    justify-items: center;
+    justify-content: center; */
+}
+.intro:first-child{
+    margin-right: 20px;
+}
+.intro .profile{
+    font-size: 50px;
+    color: azure;
+    padding: 150px;
+
+}
