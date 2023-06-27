@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.header{
     background-color: #1f1c1c;
 }
 .nav-bar{
@@ -64,4 +66,32 @@
     color: azure;
     padding: 150px;
 
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    background-color:gray;
+    align-content: center;
+    
+}
+
+.abt-1{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+
+}
+.abt-1 .left{
+    color: azure;
+    font-size: 30px;
+    padding: 30px;
+}
+.abt-1 .left p{
+   width: 1070px;
+}
+.abt-1 .right{
+    color: azure;
+    font-size: 30px;
+    padding: 30px;
 }
