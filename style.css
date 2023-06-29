@@ -5,7 +5,7 @@
 }
 .headr{
     background-color: #1f1c1c;
-    padding-bottom: 1rem;
+    padding-bottom: 15rem;
 }
 .nav-bar{
     display: flex;
@@ -45,8 +45,10 @@
 }
 .intro {
     display: flex;
-    position: relative;
-    margin: 7.5rem;
+    
+    margin: 1rem;
+    margin-top: 10rem;
+    justify-content: center;
     /* position: absolute;
     left: 50%;
     top: 50%;
@@ -54,15 +56,9 @@
 
 }
  .profile {
-   flex: 2;
-    border: 2px solid yellow;
-    /* display: flex;
-    justify-items: center;
-    justify-content: center; */
+   flex: 1; 
 }
-.intro:first-child{
-    margin-right: 20px;
-}
+
 .intro .profile{
     font-size: 3.5rem;
     color: azure;
@@ -85,8 +81,9 @@
     position: relative;
     background-color: #1f1c1c;
     padding-block: 7.2em;
-    
-
+}
+.container{
+    margin-left: 5rem;
 }
 .skills-grid{
     display: grid;
