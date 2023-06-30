@@ -183,9 +183,16 @@
 /*-----------------Media Query - Responsive WEB----------------------------------*/
 
 @media (max-width:36.5rem){
+    *{
+        margin: 0 auto;
+        padding: 0 auto;
+        box-sizing: border-box;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
     .headr{
         background-color: #1f1c1c;
-        padding-bottom: 10rem;
+        padding-bottom: 5rem;
     }
     .nav-bar{
         display: flex;
@@ -210,13 +217,13 @@
         position: relative;
         gap: 0.1rem;
         background-color: #f23269;
-        font-size: 1.3rem
+        font-size: 1.2rem
     }
     .menu li{
         
         list-style: none;
         color: whitesmoke;
-        padding: 1.5rem 1rem;
+        padding: 1.2rem 0.8rem;
         background-color: #f23269;
     }
     
@@ -227,11 +234,11 @@
         border-radius: 5rem;
     }
     .intro {
-        display: flex;
-        margin: 1rem;
-        margin-top: 10rem;
+        display: flex;        
+        margin-top: 5rem;
         justify-content: center;
         flex-direction: column-reverse;
+        align-items: center;
         /* position: absolute;
         left: 50%;
         top: 50%;
@@ -241,9 +248,11 @@
    
     
     .intro .profile{
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         color: azure;
-        border-radius: 10rem; 
+        align-items: center;
+        justify-content: center;
+        border-radius: 0%;
      
     
     }
@@ -261,17 +270,18 @@
     .section-skills{
         position: relative;
         background-color: #1f1c1c;
-        padding-block: 7.2em;
+        padding-block: 4.2em;
     }
     .container{
-        margin-left: 2rem;
+        margin: 0rem;
     }
     .skills-grid{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        row-gap: 3.5rem;
+        row-gap: 1.5rem;
         justify-items: center;
-        margin-top: 2.2rem;
+        align-items: center;
+        margin-top: .2rem;
     }
     .subheading{
         font-size: 2.3rem;
@@ -281,14 +291,14 @@
         letter-spacing: 0.75px;
     }
     .container h2{
-        font-size: 2.1rem;
+        font-size: 1.7rem;
         font-weight: 300;
         text-transform: uppercase;
         color: azure;
         letter-spacing: 0.75px;
     }
     .skills-subheading{
-        font-size: 1.9rem;
+        font-size: 1.5rem;
         font-weight: 300;
         text-transform: uppercase;
         margin-bottom: 7.2rem;
@@ -302,6 +312,7 @@
         color: azure;
         font-weight: 300;
         font-size: 1.1rem;
+    
     }
     .skill-item-img{
         width: 76px;
