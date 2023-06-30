@@ -178,3 +178,187 @@
     
     margin-right: 20px;
 }
+
+
+/*-----------------Media Query - Responsive WEB----------------------------------*/
+
+@media (max-width:36.5rem){
+    .headr{
+        background-color: #1f1c1c;
+        padding-bottom: 10rem;
+    }
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        background-color: #f23269;
+        
+    }
+    .nav-bar .logo{
+        /* font-size: 1rem;
+        background-color: #f23269;
+        font-style: italic;
+        height: 2px;
+        width: 2px; */
+        visibility: hidden;
+        
+    }
+    
+    .menu{
+        display: flex;
+        position: relative;
+        gap: 0.1rem;
+        background-color: #f23269;
+        font-size: 1.3rem
+    }
+    .menu li{
+        
+        list-style: none;
+        color: whitesmoke;
+        padding: 1.5rem 1rem;
+        background-color: #f23269;
+    }
+    
+    .menu li:hover{
+        font-size: 1rem;
+        background-color: #1f1c1c;
+        transition: 0.3s ease;
+        border-radius: 5rem;
+    }
+    .intro {
+        display: flex;
+        margin: 1rem;
+        margin-top: 10rem;
+        justify-content: center;
+        flex-direction: column-reverse;
+        /* position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%); */
+    
+    }
+   
+    
+    .intro .profile{
+        font-size: 3.5rem;
+        color: azure;
+        border-radius: 10rem; 
+     
+    
+    }
+    .img{
+        color: azure;
+        border-radius: 50%; 
+        height: 20rem;
+         width: 20rem;
+    
+    }
+    
+    /*------------------------------------------------------------------*/
+    
+    
+    .section-skills{
+        position: relative;
+        background-color: #1f1c1c;
+        padding-block: 7.2em;
+    }
+    .container{
+        margin-left: 2rem;
+    }
+    .skills-grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 3.5rem;
+        justify-items: center;
+        margin-top: 2.2rem;
+    }
+    .subheading{
+        font-size: 2.3rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: azure;
+        letter-spacing: 0.75px;
+    }
+    .container h2{
+        font-size: 2.1rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: azure;
+        letter-spacing: 0.75px;
+    }
+    .skills-subheading{
+        font-size: 1.9rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-bottom: 7.2rem;
+        margin-top: 1.2rem;
+        color: azure;
+        letter-spacing: 0.75px;
+    
+    }
+    .skill-item{
+        text-align: center;
+        color: azure;
+        font-weight: 300;
+        font-size: 1.1rem;
+    }
+    .skill-item-img{
+        width: 76px;
+        height: 76px;
+    }
+    .section-skills svg {
+        height: 76px;
+        width: 76px;
+      }
+    
+      /*------------------------------------------------------------------*/
+    
+    .about{
+        position: relative;
+        justify-content: center;
+        background-color:gray;
+        align-content: center;
+        padding: 2rem;
+        
+    }
+    
+    .abt-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2.5rem;
+    
+    }
+    .abt-1 .left{
+        color: azure;
+        font-size: 2.1rem;
+        
+    }
+    
+    .abt-1 .right{
+        color: azure;
+        font-size: 1.9rem;
+    
+    }
+    
+    /*------------------------------------------------------------------*/
+    
+    
+    .foot{
+       background-color: #1f1c1c;
+       color: azure;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction:  column;
+       text-align: center;
+       font-size: 30px;
+    }
+    .social #link{
+        
+        margin-right: 20px;
+    }
+    
+
+}
