@@ -16,12 +16,13 @@
     background-color: #f23269;
     
 }
-.nav-bar .logo{
+.logo img{
     font-size: 1.5rem;
     background-color: #f23269;
     font-style: italic;
     height: auto;
-    width: 1rem;
+    width: 15rem;
+    border-radius: 4rem;
     
 }
 
@@ -31,15 +32,15 @@
     background-color: #f23269;
     font-size: 1.5rem;
 }
-.menu li{
-    list-style: none;
+.menu a{
+    text-decoration: none;
     color: whitesmoke;
-    padding: 1.5rem 2.5rem;
+    padding: 1.5rem 1.2rem;
     background-color: #f23269;
 }
 
-.menu li:hover{
-    font-size: 1rem;
+.menu a:hover{
+    font-size: 1.8rem;
     background-color: #1f1c1c;
     transition: 0.3s ease;
     border-radius: 20rem;
@@ -60,7 +61,7 @@
    flex: 1; 
 }
 
-.intro .profile{
+.profile{
     font-size: 3.5rem;
     color: azure;
     border-radius: 10rem; 
@@ -149,13 +150,13 @@
     gap: 5.5rem;
 
 }
-.abt-1 .left{
+ .left{
     color: azure;
     font-size: 2.1rem;
     
 }
 
-.abt-1 .right{
+.right{
     color: azure;
     font-size: 2.1rem;
 
@@ -178,7 +179,34 @@
     
     margin-right: 20px;
 }
+.social #link i{
+    size: 40px;
+}
 
+
+.blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 2rem;
+}
+
+.content{
+    text-align: center;
+    font-size: 1.8rem;
+
+}
+.blog-name{
+    justify-content: center;
+
+}
+.btn{
+    background-color: #f23269;
+    border-radius: 1.9rem;
+    color: aliceblue;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
 
 /*-----------------Media Query - Responsive WEB----------------------------------*/
 
@@ -198,17 +226,17 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 1rem;
+        padding: 0.8rem;
         background-color: #f23269;
         
     }
-    .nav-bar .logo{
-        /* font-size: 1rem;
+    .logo img{
+        font-size: 1rem;
         background-color: #f23269;
         font-style: italic;
-        height: 2px;
-        width: 2px; */
-        visibility: hidden;
+        height: auto;
+        width: 4rem;
+       
         
     }
     
@@ -217,17 +245,17 @@
         position: relative;
         gap: 0.1rem;
         background-color: #f23269;
-        font-size: 1.2rem
+        font-size: 1rem
     }
-    .menu li{
-        
+    .menu a{
+        text-decoration: none;
         list-style: none;
         color: whitesmoke;
-        padding: 1.2rem 0.8rem;
+        padding: 0.5rem .1rem;
         background-color: #f23269;
     }
     
-    .menu li:hover{
+    .menu a:hover{
         font-size: 1rem;
         background-color: #1f1c1c;
         transition: 0.3s ease;
@@ -373,4 +401,28 @@
     }
     
 
+}
+/*--------------------------------------------------*/
+.blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1rem;
+}
+
+.content{
+    text-align: center;
+    font-size: 1.4rem;
+
+}
+.blog-name{
+    justify-content: center;
+
+}
+.btn{
+    background-color: #f23269;
+    border-radius: 1.4rem;
+    color: aliceblue;
+    font-size: 1.4rem;
+    text-decoration: none;
 }
